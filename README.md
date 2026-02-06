@@ -8,8 +8,12 @@ This project analyzes customer churn to identify key factors influencing custome
 
 This dashboard provides a high-level view of customer churn patterns, highlighting the most influential factors affecting customer retention. It shows that churn is primarily driven by contract type, with month-to-month customers exhibiting significantly higher churn rates compared to customers on longer-term contracts.
 
+<img width="1244" height="1014" alt="image" src="https://github.com/user-attachments/assets/e359b0f8-6328-400f-944f-e62fef75b8ca" />
+
+
 Additional segmentation confirms that demographic factors such as gender have minimal impact on churn, allowing focus to remain on behavioral and contractual drivers. The dashboard is designed to support fast, data-driven decisions by clearly identifying high-risk customer groups and areas where retention efforts will have the greatest impact.
 
+<img width="1244" height="1014" alt="image" src="https://github.com/user-attachments/assets/608bc73a-71e8-4df9-b5d3-1e4ed7c24a8a" />
 
 
 ## Dataset
