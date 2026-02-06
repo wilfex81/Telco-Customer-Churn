@@ -1,19 +1,51 @@
-# About Dataset
+# Customer Churn Analysis (Excel)
 
-## Context
-"Predict behavior to retain customers. You can analyze all relevant customer data and develop focused customer retention programs." [IBM Sample Data Sets]
+## Project Overview
 
-## Content
-Each row represents a customer, each column contains customer's attributes described on the column Metadata.
+This project analyzes customer churn to identify key factors influencing customer retention. Using Excel pivot tables and visualizations, it determines who churns, why they churn, and which factors matter most for business decisions.
 
-The data set includes information about:
+## Dataset
 
-- Customers who left within the last month – the column is called Churn
-- Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
-- Customer account information – how long they've been a customer, contract, payment method, paperless billing, monthly charges, and total charges
-- Demographic info about customers – gender, age range, and if they have partners and dependents
+**Source:** Telecom Customer Churn dataset
 
-## Inspiration
-To explore this type of models and learn more about the subject.
+**Contents:**
+- Customer ID
+- Churn status (Yes/No)
+- Contract type
+- Tenure
+- Monthly and total charges
+- Demographics (gender)
+- Services subscribed
 
-New version from IBM: https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113
+## Tools Used
+
+- Microsoft Excel
+- Pivot Tables
+- Calculated percentages (% of Row Total)
+- Column charts
+- Dashboard-style visual summaries
+
+## Key Findings
+
+| Factor | Insight |
+|--------|---------|
+| **Overall Churn Rate** | 26.54% |
+| **Contract Type** | Month-to-month: 42.7% \| One-year: 11.3% \| Two-year: 2.8% |
+| **Gender** | Female: 26.92% \| Male: 26.16% (not a meaningful driver) |
+
+## Key Insights
+
+1. **Contract Type is the Strongest Driver** – Longer contracts dramatically reduce churn
+2. **Gender Has No Impact** – Churn rates are nearly identical across genders
+3. **Actionable Focus** – Prioritize month-to-month to longer-term contract migration
+
+## Business Recommendations
+
+- Focus retention efforts on month-to-month customers
+- Encourage migration to longer-term contracts
+- Avoid demographic-based churn strategies
+- Prioritize variables with measurable behavioral influence
+
+## Conclusion
+
+This analysis demonstrates a structured, hypothesis-driven approach emphasizing signal over noise to deliver clear, decision-focused insights for business environments.
