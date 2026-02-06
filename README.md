@@ -4,6 +4,14 @@
 
 This project analyzes customer churn to identify key factors influencing customer retention. Using Excel pivot tables and visualizations, it determines who churns, why they churn, and which factors matter most for business decisions.
 
+## Customer Churn Analysis Dashboard
+
+This dashboard provides a high-level view of customer churn patterns, highlighting the most influential factors affecting customer retention. It shows that churn is primarily driven by contract type, with month-to-month customers exhibiting significantly higher churn rates compared to customers on longer-term contracts.
+
+Additional segmentation confirms that demographic factors such as gender have minimal impact on churn, allowing focus to remain on behavioral and contractual drivers. The dashboard is designed to support fast, data-driven decisions by clearly identifying high-risk customer groups and areas where retention efforts will have the greatest impact.
+
+
+
 ## Dataset
 
 **Source:** Telecom Customer Churn dataset
